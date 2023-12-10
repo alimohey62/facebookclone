@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 3px 2px 20px 1px rgb(182, 177, 177);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    width: 100%;
+    height: 65px;
+}
+.nav-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+}
+nav .nav-left .fab{
+    font-size: 40px;
+    color: dodgerblue;
+    margin-right: 5px;
+}
+nav .nav-left input{
+    width: 230px;
+    height: 42px;
+    border: none;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(245, 242, 239);
+    position: relative;
+    outline: none;
+}
+nav .nav-left .fa-solid{
+    position: absolute;
+    left: 80px;
+    top: 24px;
+    font-size: 18px;
+    color: rgb(74, 71, 71);
+}
+nav .nav-center{
+    position: absolute;
+    right: 445px;
+    top: 25px;
+}
+nav .nav-center a{
+    color: #65676b;
+    text-decoration: none;
+    margin-left: 55px;
+    font-size: 28px;
+}
+nav .nav-center a:hover{
+    background-color: rgba(148, 149, 152, 0.438);
+}
+nav .nav-right{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+}
+.nav-right .name-frofile{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.nav-right .name-frofile img{
+    border-radius: 55px;
+    
+}
+.nav-right .icon-right{
+    display: flex;
+    font-size: 30px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.nav-right .icon-right a{
+    margin-left: 13px;
+    color: #242629;
+    text-align: center;
+    background-color: #f0f2f5;
+    border: 8px solid #f0f2f5;
+    border-radius: 50%;
+
+}
+.all-content{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f2f5;
+    height: 100%;
+    padding-top: 65px;
+}
+.all-content .left-con {
+    height: 100vh;
+    width: 220px;
+    overflow: hidden;
+    position: sticky;
+    left: 0;
+}
+.all-content .left-con:hover{
+    overflow: scroll;
+
+}
+.all-content .left-con li{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.left-con p{
+    margin-top: 7px;
+    font-size: 18px;
+}
+.all-content .left-con .edit-image img{
+    border-radius: 50%;
+}
+.right-con{
+    align-items: center;
+    margin-right: 30px;
+    height: 100vh;
+    overflow: hidden;
+    position: sticky;
+    left: 0;
+}
+.right-con:hover{
+    overflow: scroll;
+}
+.right-con h1{
+    color: #65676b;
+    margin-top: 35px;
+}
+.find-hope{
+    display: flex;
+    margin-top: 18px;
+}
+.find-hope p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.find-hope img{
+    width: 130px;
+    border-radius: 13px;
+}
+.light-room{
+    display: flex;
+    margin-top: 18px;
+}
+.light-room img{
+    width: 70px;
+    border-radius: 10px;
+    height: 65px;
+}
+.light-room p{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+.icon-contacts i{
+    margin-left: 20px;
+    color: #65676b;
+}
+.div-contacts p{
+    font-size: 15px;
+    margin-left: 6px;
+    margin-top: 4px;
+}
+.div-contacts li{
+    display: flex;
+    margin-top: 20px;
+
+}
+.div-contacts li img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.story-top{
+    display: flex;
+    margin-top: 20px;
+    width: 400px;
+}
+.make-story{
+    background-color: white;
+    border-radius: 10px;
+    width: 120px;
+    height: 190px;
+    box-shadow: 5px 15px 10px 5px #65676b28 , 8px 15px 15px 5px #65676b28;
+    margin-right: 15px;
+    position: relative;
+}
+.make-story p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 18px;
+}
+.make-story .fa-solid{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    background-color: blue;
+    width: 40px;
+    border-radius: 50%;
+    border: 6px solid blue;
+    outline: 4px solid white;
+    position: absolute;
+    top: 100px;
+    right: 30px;
+}
+.ali-saad p{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 60px;
+}
+.make-story .story-1{
+    width: 120px;
+    border-radius: 10px;
+}
+.ali-saad .low-1{
+    width: 100px;
+    height: 190px;
+    border-radius: 7px;
+    box-shadow: 5px 15px 10px 5px #65676b28;
+    margin-right: 20px;
+    position: relative;
+}
+.up-1{
+    width: 24px;
+    height: 26px;
+    border-radius: 50px;
+    background-color: blue;
+    border: 4px solid blue;
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    left: 6px;
+}
+.ali-saad {
+    position: relative;
+}
+.ali-saad p{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    z-index: 1;
+    position: absolute;
+    top: 160px;
+}
+.write-post{
+    background-color: white;
+    margin-top: 25px;
+    height: 130px;
+    border-radius: 10px;
+    box-shadow: 0px 7px 9px 5px #65676b38;
+}
+.write-post .write-1{
+    display: flex;
+}
+.write-post img{
+    width: 35px;
+    border-radius: 50px;
+    height: 38px;
+    margin-left: 14px;
+    margin-top: 10px;
+}
+.write-1 .remind-1{
+    margin-left: 15px;
+    margin-top: 13px;
+    width: 535px;
+    height: 32px;
+    border-radius: 20px;
+    border: none;
+    background-color: #65676b32;
+    outline: none;
+}
+.hr-1{
+    width: 530px;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+.write-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.write-2 .active a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.active .caption{
+    color: #65676b;
+}
+.post-2{
+    background-color: white;
+    margin-top: 24px;
+    height: 470px;
+    border-radius: 10px;
+    box-shadow: 0px 7px 9px 5px #65676b38;
+}
+.bbbbm{
+    display: flex;
+}
+.bbbbm .my-photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+.text-photo{
+    display: flex;
+    justify-content: space-between;
+}
+.image-palestine{
+    width: 570px;
+    height: 325px;
+    margin-left: 23px;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+.hr-2{
+    width: 570px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.reacts{
+    display: flex;
+    justify-content: space-around;
+}
+.reacts div{
+    display: flex;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #65676b;
+}
+@media  only screen and (max-width:1080px){
+
+    .center-con{
+        padding: 0px 50px;
+    }
+    .left_con{
+        display: none;
+    }
+    .nav-left input{
+        width: 50px;
+    }
+
+}
+@media  only screen and (max-width:882px){
+
+    .center-con{
+        padding: 0px 3px;
+    }
+    .right_con{
+        display: none;
+    }
+    .nav-center{
+        display: none;
+    }
+}
